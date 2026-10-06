@@ -1,0 +1,125 @@
+{
+  "name": "sports-prediction-market-skills",
+  "version": "1.0.0",
+  "description": "Modular skills for a sports prediction-market analyst with pregame, live-event, pricing, research, sportsbook intelligence, correlation, calibration, and risk workflows.",
+  "soul": "SOUL.md",
+  "skills": [
+    {
+      "name": "market-analysis",
+      "path": "skills/market-analysis/SKILL.md",
+      "description": "Analyze pregame, futures, playoff, championship, award, and other sports prediction markets to estimate fair probability and edge.",
+      "triggers": [
+        "pregame market",
+        "game winner",
+        "futures",
+        "playoff market",
+        "championship market",
+        "player award",
+        "qualification market"
+      ]
+    },
+    {
+      "name": "live-event-analysis",
+      "path": "skills/live-event-analysis/SKILL.md",
+      "description": "Analyze sports prediction markets while an event is actively happening using verified live game state and rapidly updating probabilities.",
+      "triggers": [
+        "live game",
+        "in-game market",
+        "current score",
+        "game clock",
+        "live odds",
+        "live prediction market"
+      ]
+    },
+    {
+      "name": "pricing-edge",
+      "path": "skills/pricing-edge/SKILL.md",
+      "description": "Convert market prices and fair probabilities into edge, expected value, net edge, and market-quality assessments.",
+      "triggers": [
+        "fair value",
+        "edge",
+        "EV",
+        "expected value",
+        "bid ask",
+        "market price"
+      ]
+    },
+    {
+      "name": "sportsbook-intelligence",
+      "path": "skills/sportsbook-intelligence/SKILL.md",
+      "description": "Use sportsbook and exchange prices, vig-free probabilities, and line movement as external market intelligence.",
+      "triggers": [
+        "sportsbook odds",
+        "line movement",
+        "vig",
+        "moneyline",
+        "exchange price",
+        "sharp move"
+      ]
+    },
+    {
+      "name": "news-and-research",
+      "path": "skills/news-and-research/SKILL.md",
+      "description": "Verify breaking sports news, injuries, transactions, and other information, then quantify its effect on market probability.",
+      "triggers": [
+        "breaking news",
+        "injury",
+        "lineup",
+        "suspension",
+        "transaction",
+        "rumor",
+        "weather update"
+      ]
+    },
+    {
+      "name": "correlated-markets",
+      "path": "skills/correlated-markets/SKILL.md",
+      "description": "Find inconsistencies and dependency relationships across related sports prediction markets.",
+      "triggers": [
+        "correlated markets",
+        "arbitrage",
+        "dependency",
+        "championship vs conference",
+        "mutually exclusive markets"
+      ]
+    },
+    {
+      "name": "slate-scanner",
+      "path": "skills/slate-scanner/SKILL.md",
+      "description": "Scan many active sports markets, rank discrepancies, eliminate false edges, and surface the strongest candidates.",
+      "triggers": [
+        "scan slate",
+        "best markets",
+        "find opportunities",
+        "rank markets",
+        "today's markets"
+      ]
+    },
+    {
+      "name": "calibration-postmortem",
+      "path": "skills/calibration-postmortem/SKILL.md",
+      "description": "Track forecast quality over time using calibration, Brier score, log loss, closing-market movement, and postmortems.",
+      "triggers": [
+        "calibration",
+        "postmortem",
+        "forecast performance",
+        "Brier score",
+        "log loss",
+        "closing line value"
+      ]
+    },
+    {
+      "name": "risk-and-exposure",
+      "path": "skills/risk-and-exposure/SKILL.md",
+      "description": "Evaluate model, liquidity, execution, settlement, correlation, and portfolio-level risk across multiple markets.",
+      "triggers": [
+        "risk",
+        "exposure",
+        "portfolio",
+        "correlation",
+        "position sizing",
+        "market risk"
+      ]
+    }
+  ]
+}
